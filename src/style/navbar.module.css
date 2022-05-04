@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  background-color: #130f40;
+}
+
+.brand {
+}
+
+.brand__logo {
+  color: #f0f8ff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.un__Order__List {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.item {
+  margin: 0 2rem;
+}
+
+.items {
+  color: #f0f8ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.items:hover {
+  color: #badc58;
+  transition: 0.5s;
+  text-shadow: 0 0 20px #badc58;
+}
